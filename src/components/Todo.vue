@@ -63,7 +63,7 @@ export default {
         },
         addTodo(title) {
             this.todoList.push({
-                id: this.todoList.length,
+                id: this.todoList.length + 1,
                 title,
                 completed: false
             })
@@ -80,7 +80,7 @@ export default {
                 .catch((error) => {
                     console.log(error.message);
                 });
-        }, 2000);
+        }, 0);
     },
 };
 </script>
