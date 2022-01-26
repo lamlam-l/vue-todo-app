@@ -80,7 +80,7 @@ export default {
                 .catch((error) => {
                     console.log(error.message);
                 });
-        }, 0);
+        }, 2000);
     },
 };
 </script>
